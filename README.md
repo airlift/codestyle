@@ -322,8 +322,7 @@ public class Sample
      * @invalidTag
      */
     public abstract String sampleMethod(int i, int longParameterName, int missingDescription)
-            throws XXXException, YException,
-            ZException;
+            throws XXXException, YException, ZException;
 
     /**
      * One-line comment
