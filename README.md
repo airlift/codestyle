@@ -299,6 +299,13 @@ interface TestInterface
 ```
 
 ### JavaDoc
+
+#### General guidelines
+
+* Do not include `@author` tags. The commit history is enough for this purpose.
+
+#### Example
+
 ```java
 package sample;
 
