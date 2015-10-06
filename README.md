@@ -8,6 +8,11 @@ To install, copy `IntelliJIdea14/Airlift.xml` into `~/Library/Preferences/Intell
 
 To install, copy `IntelliJIdea14/Airlift.xml` into `$HOME/.IdeaIC14/config/codestyles`
 
+## Eclipse Mars
+
+* Open the Eclipse Preferences
+* On the Code Style -> Organize Imports tab, import the 'Airlift Organize Imports.importorder' file.
+* On the Code Style -> Formatter tab, import the 'Airlift Code Style.xml' file.
 
 ## Examples
 
