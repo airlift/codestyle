@@ -10,13 +10,12 @@ To install, copy `IntelliJIdea14/Airlift.xml` into `$HOME/.IdeaIC14/config/codes
 
 ## Programming guidelines
 
-* Commit messages should follow the format described [here](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html). Ideally, you should be able to look at the commit and:
+* Commit messages should follow the format described [here](http://chris.beams.io/posts/git-commit/). Ideally, you should be able to look at the commit and:
     * be able to tell whether this fix applies to something they may be seeing,
     * understand the reason why it's broken,
     * have some context when looking at the actual changes in the commit (trying to reverse-engineer the observed behavior from the code changes can be very hard).
 
-  Commit message are the way developers communicate with their future selves and other
-  colleagues so special care should be taken when writing them.
+  Commit message are the way developers communicate with their future selves and other colleagues so special care should be taken when writing them.
 * End every file with a newline. To enable this automatically on save in IntelliJ 14: File->Settings->General->Other (section on the right when you click on General)->Check "Ensure line feed at file end on Save".
 * Don't use `else`, if the `if` has a return in it.
 * Don't mix concurrency and inheritance. Concurrent classes should not compose/inherit because that forces you to reason about the memory visibility of each member and understand the locking semantics of the class' parent(s). Generally, inheritance makes concurrency semantics implicit and harder to follow.
@@ -31,8 +30,7 @@ To install, copy `IntelliJIdea14/Airlift.xml` into `$HOME/.IdeaIC14/config/codes
     * certain functionality doesn't exist in the JDK or
     * Guava presents you with a clearly superior API and doesn't degrade performance.
 
-  For example, do not use `Guava.checkNotNull()` because the same functionality exists
-  in the JDK as `Objects.requireNonNull()`.
+  For example, do not use `Guava.checkNotNull()` because the same functionality exists in the JDK as `Objects.requireNonNull()`.
 * Do not use .* style imports since they cause name conflicts. If you're using the Airlift codestyle, then IntelliJ is configured to not add such imports automatically.
 * Do not vertically align characters; avoid vertical alignment of the `=` character as is common in C/C++.
 * Use static imports where appropriate. For example, do not statically import `Optional.of()` or `ImmutableSet.Builder()`, `ImmutableList.Builder()`, `ImmutableMap.Builder()`. Sometimes the enclosing class qualifies the method and a static import doesn't make sense.
@@ -40,6 +38,7 @@ To install, copy `IntelliJIdea14/Airlift.xml` into `$HOME/.IdeaIC14/config/codes
 * Follow synchronization best practices: design objects to be as immutable as possible, document the concurrency semantics of your objects using annotations (`@GuardedBy`, `@ThreadSafe`). For more info we recommend you read [Java Concurrency in Practice](http://jcip.net.s3-website-us-east-1.amazonaws.com/).
 * Do not use Java Serialization because it is very slow.
 * Defensively check for `NULL`s on your public interfaces. Add `@Nullable` when arguments to constructors can be `NULL`, otherwise ensure arguments are not `NULL`. Consider using `Optional`s in place of nullable fields.
+* Utility classes should be final.
 
 ## Examples
 
