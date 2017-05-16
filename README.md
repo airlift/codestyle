@@ -1,12 +1,12 @@
 # Code style for Airlift projects
 
-## IntelliJ IDEA 14 on Mac OS X
+## IntelliJ IDEA 2017.1 on Mac OS X
 
-To install, copy `IntelliJIdea14/Airlift.xml` into `~/Library/Preferences/IntelliJIdea14/codestyles`
+To install, copy `IntelliJIdea2017.1/Airlift.xml` into `~/Library/Preferences/IntelliJIdea2017.1/codestyles`
 
-## IntelliJ IDEA 14 on Linux
+## IntelliJ IDEA 2017.1 on Linux
 
-To install, copy `IntelliJIdea14/Airlift.xml` into `$HOME/.IdeaIC14/config/codestyles`
+To install, copy `IntelliJIdea2017.1/Airlift.xml` into `$HOME/.IdeaIC2017.1/config/codestyles`
 
 
 ## Examples
