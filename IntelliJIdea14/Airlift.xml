@@ -124,7 +124,9 @@
     <option name="THROWS_LIST_WRAP" value="1" />
     <option name="EXTENDS_KEYWORD_WRAP" value="2" />
     <option name="THROWS_KEYWORD_WRAP" value="2" />
+    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
     <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+    <option name="KEEP_SIMPLE_LAMBDAS_IN_ONE_LINE" value="true" />
     <option name="KEEP_SIMPLE_CLASSES_IN_ONE_LINE" value="true" />
     <option name="ARRAY_INITIALIZER_WRAP" value="1" />
     <option name="ASSERT_STATEMENT_WRAP" value="5" />
