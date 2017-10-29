@@ -343,4 +343,5 @@ public class Sample
      * @return
      */
     public abstract String sampleMethod3();
+}
 ```
