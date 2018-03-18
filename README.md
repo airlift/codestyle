@@ -2,7 +2,11 @@
 
 ## IntelliJ IDEA 14 on Mac OS X
 
-To install, copy `IntelliJIdea14/Airlift.xml` into `~/Library/Preferences/IntelliJIdea14/codestyles`
+To install, copy `IntelliJIdea14/Airlift.xml` into `~/Library/Preferences/${INTELLIJ_VERSION}/codestyles/`
+e.g. :  
+``` 
+mkdir -p ~/Library/Preferences/IntelliJIdea2017.3/codestyles/ && cp IntelliJIdea14/Airlift.xml ~/Library/Preferences/IntelliJIdea2017.3/codestyles/
+```
 
 ## IntelliJ IDEA 14 on Linux
 
