@@ -1,13 +1,10 @@
 # Code style for Airlift projects
 
-## IntelliJ IDEA 14 on Mac OS X
+## IntelliJ IDEA 2019 or newer
 
-To install, copy `IntelliJIdea14/Airlift.xml` into `~/Library/Preferences/IntelliJIdea14/codestyles`
-
-## IntelliJ IDEA 14 on Linux
-
-To install, copy `IntelliJIdea14/Airlift.xml` into `$HOME/.IdeaIC14/config/codestyles`
-
+To install, download the `IntelliJIdea2019/Airlift.xml` file.
+In IntelliJ, open "Preferences > Code Style", click the cog icon
+and choose "Import Scheme" option.
 
 ## Examples
 
