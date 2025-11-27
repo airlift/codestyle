@@ -53,6 +53,7 @@
   <option name="WHILE_BRACE_FORCE" value="3" />
   <option name="FOR_BRACE_FORCE" value="3" />
   <JavaCodeStyleSettings>
+    <option name="ALIGN_MULTILINE_TEXT_BLOCKS" value="true" />
     <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="9999" />
     <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="9999" />
     <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
@@ -448,4 +449,3 @@
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
   </codeStyleSettings>
 </code_scheme>
-
